@@ -25,12 +25,12 @@
     		if (numPeople >= 6)
     		{
     			int charge = numPeople * 15 - 5;
-    			Console.WriteLine(charge);
+    			Console.WriteLine("£" + charge);
     		}
     		else
     		{
     			int charge = numPeople * 15;
-    			Console.WriteLine(charge);
+    			Console.WriteLine("£" + charge);
     		}
 
         }
